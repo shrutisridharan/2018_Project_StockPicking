@@ -1,0 +1,36 @@
+﻿@model IEnumerable<IEXTrading.Models.CompanyStrategyValue>
+
+@{
+    ViewData["Title"] = "ShowTop5Stock";
+}
+
+<h2>Top 5 52-Week Price Range Strategy Picks</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Symbol
+            </th>
+            <th>
+                Strategy Value
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.symbol)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.companyValue)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

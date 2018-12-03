@@ -1,0 +1,25 @@
+﻿body {
+    background-color: #E5E4E2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #161514;
+}
+
+.nav-bar {
+    background-color: #161514;
+    color: #CFC493;
+    font-size: x-large;
+}
+
+.nav-bar > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    border-spacing: 10px;
+    border-collapse: separate;
+}

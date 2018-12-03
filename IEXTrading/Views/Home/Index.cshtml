@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Index";
+<h2>IEX Trading Application</h2>
+<hr />
+   <img src="~/images/stockpick.jpeg" alt=" stockprice Icon" />
+}
+
+   <p>
+       This application let's you fetch trading data from IEX via their public <a href="https://iextrading.com/developer/">API</a>.
+       <br />
+       <br />
+       The <a asp-area="" asp-controller="Home" asp-action="Symbols">Symbols</a> tab fetches symbols data from the
+       <a href="https://iextrading.com/developer/docs/#reference-data">IEX Reference API </a> and displays the results.
+       This data can also be saved in the local database.
+       <br />
+       The <a asp-area="" asp-controller="Home" asp-action="ShowTop5Stocks">Best Five</a> tab displays Top 5 52-Week Price Range Strategy Picks
+       <br />
+       The <a asp-area="" asp-controller="Home" asp-action="Refresh">Refresh</a> tab let's you refresh the local database, that is, remove all its contents.
+       The <a asp-area="" asp-controller="Home" asp-action="AboutThisWebsite">About this Website</a>tab tells more about the purpose of the website
+       The <a asp-area="" asp-controller="Home" asp-action="Learnings"> Reflection </a><text>tab reflects on the learnings and teachings throughout
+   </p>
+    
+    <p>
+
+    </p>
